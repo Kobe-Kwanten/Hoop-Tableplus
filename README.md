@@ -73,4 +73,8 @@ Past the following:
 alias hooptable="/bin/bash /usr/local/bin/hoop-table/script.sh"
 ```
 
-Restart your terminal
+Restart your terminal or run:
+
+```shell
+source ~/.zshrc
+```
