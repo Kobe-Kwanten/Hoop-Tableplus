@@ -2,13 +2,11 @@
 
 cleanup() {
   echo "Cleaning up..."
-  if ps -p "$hoop_pid" > /dev/null; then
+  if [ -n "$hoop_pid" ]  &&  ps -p "$hoop_pid" > /dev/null ; then
     kill "$hoop_pid"
     echo "Hoop process killed."
   fi
-#  tput rmcup
   exit
-
 }
 
 # Set trap to call cleanup on script exit or termination
