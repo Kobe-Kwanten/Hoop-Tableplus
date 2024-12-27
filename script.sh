@@ -47,10 +47,8 @@ while true; do
   fi
 done
 
-
-
 connected=false
-port=5432
+port=5433
 while ! $connected; do
   echo "Opening connection ${connection_name} on port ${port}... "
   hoop connect "$connection_name" -p "$port" > /tmp/hoop_output.log 2>&1 &
