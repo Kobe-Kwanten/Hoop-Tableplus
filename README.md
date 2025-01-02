@@ -53,6 +53,13 @@ The tool will display your connection URL and it will open a tableplus window wi
 
 ## Installing
 
+Prerequisites:
+
+Make sure you the following commands are available:
+- `hoop`
+- `psql`
+- `open -a TablePlus`
+
 Copy the script
 
 ```shell
