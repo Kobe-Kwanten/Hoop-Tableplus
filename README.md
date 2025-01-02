@@ -67,7 +67,7 @@ Open you config for zsh
 code ~/.zshrc
 ```
 
-Past the following:
+Add the following to the config file:
 ```shell
 alias hooptable="/bin/bash /usr/local/bin/hooptable/script.sh"
 ```
