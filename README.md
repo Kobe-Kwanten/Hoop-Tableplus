@@ -11,7 +11,7 @@ Logging in ...
 Login succeeded
 ```
 
-After you have logged in it will show the available conenctions:
+After you have logged in it will show the available connections:
 
 ```text
 NAME                                COMMAND                                 TYPE       AGENT     STATUS   SECRETS   PLUGINS                                 
