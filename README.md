@@ -56,9 +56,8 @@ The tool will display your connection URL and it will open a tableplus window wi
 Copy the script
 
 ```shell
-sudo mkdir -p /usr/local/bin/hoop-table
-sudo cp script.sh /usr/local/bin/hoop-table/script.sh
-sudo chmod 755 /usr/local/bin/hoop-table/script.sh
+sudo mkdir -p /usr/local/bin/hooptable
+sudo cp script.sh /usr/local/bin/hooptable/script.sh
 ```
 
 Add an alias to call the script
@@ -70,7 +69,7 @@ code ~/.zshrc
 
 Past the following:
 ```shell
-alias hooptable="/bin/bash /usr/local/bin/hoop-table/script.sh"
+alias hooptable="/bin/bash /usr/local/bin/hooptable/script.sh"
 ```
 
 Restart your terminal or run:
